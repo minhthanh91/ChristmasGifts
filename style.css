@@ -1,3 +1,15 @@
 * {
   font-family: 'Nunito', sans-serif;
 }
+#banner {
+  min-height: 100vh;
+  background: url('./img/pexels-ryutaro-tsukata-6249221.jpg') center/cover
+    no-repeat fixed;
+}
+#banner p.text-center.text-uppercase {
+  letter-spacing: 0.4rem;
+  opacity: 0.5;
+}
+button {
+  opacity: 0.5;
+}

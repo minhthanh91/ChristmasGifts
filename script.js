@@ -1,5 +1,4 @@
 // $(document).ready(function () {
-//   $('.carousel').carousel({
-//     interval: 2000,
-//   });
+//   //   wowJS
+//   new WOW().init();
 // });
