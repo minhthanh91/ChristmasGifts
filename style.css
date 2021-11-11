@@ -1,15 +1,159 @@
-* {
+body {
   font-family: 'Nunito', sans-serif;
-}
-#banner {
-  min-height: 100vh;
-  background: url('./img/pexels-ryutaro-tsukata-6249221.jpg') center/cover
+  background: url('./img/pexels-anton-atanasov-735809.jpg') center/cover
     no-repeat fixed;
 }
-#banner p.text-center.text-uppercase {
-  letter-spacing: 0.4rem;
+/*======================
+    social icons 
+
+========================*/
+.info h5 {
+  letter-spacing: 0.3rem;
+}
+
+/*======================
+    header 
+
+========================*/
+#header {
+  background: url('./img/pexels-giftpunditscom-1303088.jpg') center/cover
+    no-repeat fixed;
+}
+#header .container,
+#header .row {
+  min-height: calc(100vh - 88px);
+}
+#header .col {
+  padding-top: 10rem;
+}
+
+#header h1 {
   opacity: 0.5;
 }
-button {
+.banner .btn {
+  opacity: 0.3;
+}
+@media screen and (max-width: 576px) {
+  #header h1 span {
+    font-size: 4rem;
+  }
+  #header .col {
+    padding-top: 0;
+    align-self: center;
+  }
+}
+/*======================
+    menu item
+
+========================*/
+.item-container {
+  overflow: hidden;
+}
+.item-img {
+  object-fit: cover;
+}
+.item-img:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+.item-link {
   opacity: 0.5;
+  transition: all 0.5s;
+}
+.item-link:hover {
+  opacity: 1;
+  background-color: rgba(255, 13, 13, 0.5) !important;
+}
+#menu div.col-8:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+/*======================
+    about
+
+========================*/
+#about h2 {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #204d22;
+}
+.about-pictures {
+  position: relative;
+}
+.about-img {
+  position: absolute;
+  object-fit: cover;
+  height: 200px;
+  max-width: 45%;
+}
+
+.about-img:nth-child(1) {
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+.about-img:nth-child(2) {
+  right: 10%;
+  top: 0;
+  z-index: 0;
+}
+.about-img:nth-child(3) {
+  left: calc(50% - 150px);
+  top: calc(50% - 50px);
+  z-index: 1;
+}
+.about-img:nth-child(4) {
+  left: 0;
+  bottom: -25%;
+  z-index: 0;
+}
+.about-img:nth-child(5) {
+  right: 10%;
+  bottom: -25%;
+  z-index: 2;
+}
+.about-img:hover {
+  z-index: 10;
+  transform: scale(2);
+  outline: 4px solid rgb(238, 255, 0, 0.6);
+  outline-offset: 0.2rem;
+  transition: all 1.5s;
+}
+
+/*======================
+    review
+
+========================*/
+#reviews .carousel-item img {
+  object-fit: cover;
+}
+.review-detail {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+/*======================
+    members
+
+========================*/
+#members .card img {
+  object-fit: cover;
+}
+/*======================
+    footer
+
+========================*/
+
+.scrollTop {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+}
+#back-to-top {
+  background-color: rgba(228, 34, 0, 0.5);
+}
+
+/*======================
+    nav
+
+========================*/
+.navbar-brand {
+  font-size: 30px !important;
+  font-weight: bold;
 }

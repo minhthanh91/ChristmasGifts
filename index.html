@@ -4,39 +4,675 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>testing</title>
+    <title>ChristMas Gifts</title>
     <!-- css -->
     <link rel="stylesheet" href="./style.css" />
     <!-- animate css -->
     <link rel="stylesheet" href="./animate.min.css" />
+    <!-- magnific-popup css -->
+    <link rel="stylesheet" href="./magnific-popup/magnific-popup.css" />
     <!-- google font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito&family=Orbitron&display=swap"
       rel="stylesheet"
     />
     <!-- font-awesome js -->
-    <script src="./all.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
     <!-- bootstrap css -->
     <link rel="stylesheet" href="./bootstrap.min.css" />
   </head>
   <body>
-    <div class="container">
+    <!-- social icons -->
+    <div class="container-fluid info p-3 bg-light" id="top-icons">
       <div class="row">
-        <div class="col">
-          <h1>hello</h1>
+        <div
+          class="
+            col
+            d-flex
+            justify-content-between
+            align-items-baseline
+            flex-wrap
+          "
+        >
+          <div class="info-icon p-2">
+            <a href="#" class="text-info">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="#" class="text-info ml-2">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="#" class="text-info ml-2">
+              <i class="fab fa-youtube fa-2x"></i>
+            </a>
+            <a href="#" class="text-info ml-2">
+              <i class="fab fa-yelp fa-2x"></i>
+            </a>
+          </div>
+          <h5 class="text-info p-2 font-italic">
+            Binhtan District, SG, Vietnam
+          </h5>
         </div>
-        <div class="col">
-          <h1>hello</h1>
-        </div>
-        <a href="#">
-          <i class="fas fa-home" aria-hidden="true"></i>
-          <i class="fas fa-home"></i>
-        </a>
       </div>
     </div>
+    <!-- header -->
+    <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="banner text-center text-warning">
+              <h1>
+                Get a gift for
+                <span class="display-1 font-italic">CHRISTMAS</span>
+              </h1>
+              <a
+                href="#menuItem"
+                class="
+                  btn btn-lg btn-light btn-outline-success
+                  w-50
+                  font-weight-bold
+                "
+                >GET IT</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <a href="#special-item" class="btn header-link text-primary">
+        <i class="fas fa-arrow-down" aria-hidden="true"></i>
+      </a> -->
+    </header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand text-danger" href="#">GetGift</a>
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mx-auto mt-2 mt-lg-0 justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#menu"> Menu </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#about"> About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#reviews"> Reviews </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#members"> Team </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#contact"> Contact </a>
+          </li>
+        </ul>
+        <a
+          href="#menuItem"
+          class="nav-item btn btn-outline-success w-25 justify-self-end"
+        >
+          Find now
+        </a>
+      </div>
+    </nav>
+    <!-- menu items -->
+    <section class="py-5">
+      <div class="container my-5">
+        <div class="row parent-container align-items-center" id="menuItem">
+          <!-- item -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+            <div class="item-container">
+              <img
+                src="./img/pexels-dana-tentis-364668.jpg"
+                class="item-img w-100"
+                alt="menu item"
+                height="250px"
+              />
+              <a
+                href="./img/pexels-dana-tentis-364668.jpg"
+                class="
+                  text-uppercase
+                  item-link
+                  px-3
+                  text-center
+                  d-block
+                  badge badge-warning
+                  mt-2
+                "
+                >click to view
+              </a>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+            <div class="item-container">
+              <img
+                src="./img/pexels-hert-niks-3224164.jpg"
+                class="item-img w-100"
+                alt="menu item"
+                height="250px"
+              />
+              <a
+                href="./img/pexels-hert-niks-3224164.jpg"
+                class="
+                  text-uppercase
+                  item-link
+                  px-3
+                  text-center
+                  d-block
+                  badge badge-warning
+                  mt-2
+                "
+                >click to view
+              </a>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+            <div class="item-container">
+              <img
+                src="./img/pexels-hert-niks-3388335.jpg"
+                class="item-img w-100"
+                alt="menu item"
+                height="250px"
+              />
+              <a
+                href="./img/pexels-hert-niks-3388335.jpg"
+                class="
+                  text-uppercase
+                  item-link
+                  px-3
+                  text-center
+                  d-block
+                  badge badge-warning
+                  mt-2
+                "
+                >click to view
+              </a>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+            <div class="item-container">
+              <img
+                src="./img/pexels-kristina-paukshtite-754173.jpg"
+                class="item-img w-100"
+                alt="menu item"
+                height="250px"
+              />
+              <a
+                href="./img/pexels-kristina-paukshtite-754173.jpg"
+                class="
+                  text-uppercase
+                  item-link
+                  px-3
+                  text-center
+                  d-block
+                  badge badge-warning
+                  mt-2
+                "
+                >click to view
+              </a>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+            <div class="item-container">
+              <img
+                src="./img/pexels-gary-spears-250177.jpg"
+                class="item-img w-100"
+                alt="menu item"
+                height="250px"
+              />
+              <a
+                href="./img/pexels-gary-spears-250177.jpg"
+                class="
+                  text-uppercase
+                  item-link
+                  px-3
+                  text-center
+                  d-block
+                  badge badge-warning
+                  mt-2
+                "
+                >click to view
+              </a>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+            <div class="item-container">
+              <img
+                src="./img/pexels-anthony-shkraba-5853907.jpg"
+                class="item-img w-100"
+                alt="menu item"
+                height="250px"
+              />
+              <a
+                href="./img/pexels-anthony-shkraba-5853907.jpg"
+                class="
+                  text-uppercase
+                  item-link
+                  px-3
+                  text-center
+                  d-block
+                  badge badge-warning
+                  mt-2
+                "
+                >click to view
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu -->
+    <section id="menu" class="my-5">
+      <div class="container">
+        <div class="row">
+          <!-- item -->
+          <div class="col-8 col-md-6 mx-auto">
+            <h1 class="text-warning text-uppercase text-center">Gift 1</h1>
+            <div class="detail w-75 mx-auto my-3">
+              <h3 class="text-danger">
+                Chicken <span class="d-inline-block ml-5">$10</span>
+              </h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+              <h3 class="text-danger">
+                Candy <span class="d-inline-block ml-5">$10</span>
+              </h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="col-8 col-md-6 mx-auto">
+            <h1 class="text-warning text-uppercase text-center">Gift 2</h1>
+            <div class="detail w-75 mx-auto my-3">
+              <h3 class="text-danger">
+                Tree <span class="d-inline-block ml-5">$10</span>
+              </h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+              <h3 class="text-danger">
+                Light <span class="d-inline-block ml-5">$10</span>
+              </h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="col-8 col-md-6 mx-auto">
+            <h1 class="text-warning text-uppercase text-center">Gift 3</h1>
+            <div class="detail w-75 mx-auto my-3">
+              <h3 class="text-danger">
+                Bell <span class="d-inline-block ml-5">$10</span>
+              </h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+              <h3 class="text-danger">
+                Candy <span class="d-inline-block ml-5">$10</span>
+              </h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+          <!-- item -->
+          <div class="col-8 col-md-6 mx-auto">
+            <h1 class="text-warning text-uppercase text-center">Gift 4</h1>
+            <div class="detail w-75 mx-auto my-3">
+              <h3 class="text-danger">
+                Bell <span class="d-inline-block ml-5">$10</span>
+              </h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+              <h3 class="text-danger">
+                Light <span class="d-inline-block ml-5">$10</span>
+              </h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 my-4 detail">
+            <h1 class="display-3 text-danger">ABOUT US</h1>
+            <h2>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse sit
+              iure nesciunt ipsa itaque iusto tempore adipisci accusamus
+              voluptatibus et?
+            </h2>
+            <a href="#" class="btn btn-outline-success mt-4">Learn More</a>
+          </div>
+          <div class="col-md-6 my-4 d-none d-lg-block about-pictures">
+            <img
+              src="./img/bank-g2468003f2_1920.jpg"
+              alt="about"
+              class="about-img"
+            />
+            <img
+              src="./img/pexels-pixabay-278508.jpg"
+              alt="about"
+              class="about-img"
+            />
+            <img
+              src="./img/pexels-dana-tentis-364668.jpg"
+              alt="about"
+              class="about-img"
+            />
+            <img
+              src="./img/pexels-gary-spears-250177.jpg"
+              alt="about"
+              class="about-img"
+            />
+            <img
+              src="./img/pexels-irina-iriser-759435.jpg"
+              alt="about"
+              class="about-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review -->
+    <section id="reviews" class="py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                <!-- item -->
+                <div class="carousel-item active">
+                  <div class="row align-items-center">
+                    <div class="col-4">
+                      <img
+                        src="./img/pexels-alexandru-rotariu-733416.jpg"
+                        alt="First slide"
+                        class="rounded-circle mw-100 d-block mx-auto"
+                        height="200px"
+                      />
+                    </div>
+                    <div class="col review-detail">
+                      <h4 class="text-info">Ralf</h4>
+                      <p class="text-dark">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Est culpa, hic sint alias eligendi commodi!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="carousel-item">
+                  <div class="row align-items-center">
+                    <div class="col-4">
+                      <img
+                        src="./img/pexels-anna-shvets-4588005.jpg"
+                        alt="First slide"
+                        class="rounded-circle mw-100 d-block mx-auto"
+                        height="200px"
+                      />
+                    </div>
+                    <div class="col review-detail">
+                      <h4 class="text-info">Alex</h4>
+                      <p class="text-dark">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Est culpa, hic sint alias eligendi commodi!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="carousel-item">
+                  <div class="row align-items-center">
+                    <div class="col-4">
+                      <img
+                        src="./img/pexels-dominika-roseclay-2023384.jpg"
+                        alt="First slide"
+                        class="rounded-circle mw-100 d-block mx-auto"
+                        height="200px"
+                      />
+                    </div>
+                    <div class="col review-detail">
+                      <h4 class="text-info">Akido</h4>
+                      <p class="text-dark">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Est culpa, hic sint alias eligendi commodi!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- members -->
+    <section id="members" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- member -->
+          <div class="col-8 mt-3 col-md-4 mt-md-0">
+            <div class="card">
+              <div class="card-img-top">
+                <img
+                  src="./img/pexels-kat-smith-551628.jpg"
+                  alt="member"
+                  class="w-100"
+                  height="300px"
+                />
+              </div>
+              <div class="card-body text-center">
+                <h2 class="cart-title">Team Member</h2>
+                <h5 class="text-primary">Special Mem</h5>
+              </div>
+              <div class="cart-footer d-flex justify-content-end">
+                <a href="#" class="text-secondary">
+                  <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#" class="text-secondary ml-2">
+                  <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="#" class="text-secondary ml-2">
+                  <i class="fab fa-youtube fa-2x"></i>
+                </a>
+                <a href="#" class="text-secondary ml-2">
+                  <i class="fab fa-yelp fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- member -->
+          <div class="col-8 mt-3 col-md-4 mt-md-0">
+            <div class="card">
+              <div class="card-img-top">
+                <img
+                  src="./img/pexels-laura-stanley-2252311.jpg"
+                  alt="member"
+                  class="w-100"
+                  height="300px"
+                />
+              </div>
+              <div class="card-body text-center">
+                <h2 class="cart-title">Team Member</h2>
+                <h5 class="text-primary">VIP Mem</h5>
+              </div>
+              <div class="cart-footer d-flex justify-content-end">
+                <a href="#" class="text-secondary">
+                  <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#" class="text-secondary ml-2">
+                  <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="#" class="text-secondary ml-2">
+                  <i class="fab fa-youtube fa-2x"></i>
+                </a>
+                <a href="#" class="text-secondary ml-2">
+                  <i class="fab fa-yelp fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- member -->
+          <div class="col-8 mt-3 col-md-4 mt-md-0">
+            <div class="card">
+              <div class="card-img-top">
+                <img
+                  src="./img/pexels-poodles-doodles-1458916.jpg"
+                  alt="member"
+                  class="w-100"
+                  height="300px"
+                />
+              </div>
+              <div class="card-body text-center">
+                <h2 class="cart-title">Team Member</h2>
+                <h5 class="text-primary">Active Mem</h5>
+              </div>
+              <div class="cart-footer d-flex justify-content-end">
+                <a href="#" class="text-secondary">
+                  <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#" class="text-secondary ml-2">
+                  <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="#" class="text-secondary ml-2">
+                  <i class="fab fa-youtube fa-2x"></i>
+                </a>
+                <a href="#" class="text-secondary ml-2">
+                  <i class="fab fa-yelp fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-6">
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501786.9514091605!2d106.60179954774799!3d10.718236625220161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2sHo%20Chi%20Minh%20City!5e0!3m2!1sen!2s!4v1636608957624!5m2!1sen!2s"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 mt-4 mt-sm-0">
+            <form action="">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i
+                        class="fas fa-user text-success"
+                        aria-hidden="true"
+                      ></i>
+                    </span>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your name"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i
+                        class="fas fa-phone text-success"
+                        aria-hidden="true"
+                      ></i>
+                    </span>
+                  </div>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Enter your phone"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i
+                        class="fas fa-mail-bulk text-success"
+                        aria-hidden="true"
+                      ></i>
+                    </span>
+                  </div>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                  />
+                </div>
+              </div>
+              <button
+                type="button"
+                class="btn btn-outline-success d-block w-50 mx-auto py-2"
+              >
+                SEND
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <div class="container-fluid info p-3 bg-light">
+      <div class="row">
+        <div
+          class="
+            col
+            d-flex
+            justify-content-between
+            align-items-baseline
+            flex-wrap
+          "
+        >
+          <div class="info-icon p-2">
+            <a href="#" class="text-info">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="#" class="text-info ml-2">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="#" class="text-info ml-2">
+              <i class="fab fa-youtube fa-2x"></i>
+            </a>
+            <a href="#" class="text-info ml-2">
+              <i class="fab fa-yelp fa-2x"></i>
+            </a>
+          </div>
+          <h2 class="text-info p-2 font-italic text-uppercase">
+            &copy;copyright 2021
+          </h2>
+        </div>
+      </div>
+    </div>
+    <a href="#top-icons" id="back-to-top" class="p-3 rounded-circle">
+      <i class="fa fa-arrow-up fa-2x text-white" aria-hidden="true"></i>
+    </a>
     <!-- js -->
     <script src="./jquery-3.6.0.min.js"></script>
     <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./magnific-popup/jquery.magnific-popup.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
